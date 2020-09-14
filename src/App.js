@@ -15,11 +15,18 @@ class App extends React.Component {
       .then(people => this.setState({people}))
   }
 
+  showPeople = () => {
+    return this.state.people.map(person => {
+      return <PersonCard person = {person} />
+    })
+  }
   render() {
 
     return (
       <div className="App">
-  
+        <div className = "people">
+          {this.showPeople()}
+        </div>
       </div>
     );
   }
