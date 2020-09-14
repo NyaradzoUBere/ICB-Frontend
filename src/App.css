@@ -49,6 +49,24 @@ table {
 
 /* END OF MYERS RESET */
 
+.banner {
+  background-color: white;
+  /* background-size: cover; */
+  height: 400px;
+  width: 100%;
+}
+
+.banner-text{
+  font-family: sans-serif;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 80px;
+  letter-spacing: 8px;
+  padding-top:100px;
+}
+
 .person-image {
   height: 300px;
   width: 300px;
@@ -78,8 +96,10 @@ table {
 }
 
 body {
-  margin: 20px 20px;
-  background-color: rgb(240, 221, 196);
+  /* margin: 20px 20px; */
+  background-image: linear-gradient(#edd1b5, #f9f5eb, #f5dbc1);
+  /* background-image: url("https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"); */
+  background-size: cover;
 }
 
 .person-card {

@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import PersonCard from './components/PersonCard'
+import Banner from './components/Banner'
+
 
 const peopleURL = "http://localhost:3000/people"
 
@@ -24,6 +26,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <Banner />
         <div className = "people">
           {this.showPeople()}
         </div>
