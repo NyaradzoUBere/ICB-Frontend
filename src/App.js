@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import PersonCard from './components/PersonCard'
-import Banner from './components/Banner'
 import Home from './components/pages/Home'
+import Show from './components/pages/Show'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import ShowPage from './components/pages/Show';
 
 class App extends React.Component {
 
@@ -16,6 +16,8 @@ class App extends React.Component {
             <Route exact path= '/'>
                 <Home />
             </Route>
+            {/* <Route exact path= "/show" component = {Show} /> */}
+            <Route path = '/show' render={(props) => <ShowPage {...props} />} />
           </Switch>
         </Router>
       </div>

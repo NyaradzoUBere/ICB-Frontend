@@ -1,7 +1,7 @@
 import React from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
-export default function ShowPage() {
+export default function ShowPage(props) {
     return(
         <h1>hello</h1>
     )

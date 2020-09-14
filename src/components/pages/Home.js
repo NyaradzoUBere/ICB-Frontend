@@ -1,6 +1,7 @@
 import React from 'react';
 import PersonCard from '.././PersonCard'
 import Banner from '.././Banner'
+import ShowPage from './Show';
 // import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 
@@ -22,31 +23,17 @@ return this.state.people.map(person => {
     return <PersonCard person = {person} />
 })
 }
+
 render() {
 
 return (
     <div className="App">
-    <Banner />
-    <div className = "people">
-        {this.showPeople()}
-    </div>
+        <Banner />
+        <div className = "people">
+            {this.showPeople()}
+        </div>
     </div>
 );
-// return (
-//   <div className="App">
-//     <Router>
-//       <Switch>
-//         <Route exact path= '/'>
-//             <Home />
-//         </Route>
-//         <Banner />
-//         <div className = "people">
-//           {this.showPeople()}
-//         </div>
-//       </Switch>
-//     </Router>
-//   </div>
-// );
 }
 }
 
