@@ -6,13 +6,13 @@ const peopleURL = "http://localhost:3000/people"
 
 class App extends React.Component {
   state = {
-    person: []
+    people: []
   }
 
   componentDidMount(){
     fetch(peopleURL)
       .then(response => response.json())
-      .then(console.log)
+      .then(people => this.setState({people}))
   }
 
   render() {
