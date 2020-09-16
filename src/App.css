@@ -83,16 +83,14 @@ table {
 .person-image:hover {
   top: -10px;
   cursor: pointer;
+  box-shadow: 20px 20px 30px -10px #192824;
 }
 
 .people {
   display: flex;
-  /* overflow: scroll; */
   flex-flow: row wrap;
-  /* justify-content: space-between; */
   list-style-type: none;
   text-align: center;
-  /* position: relative; */
 }
 
 body {
@@ -106,12 +104,31 @@ body {
   text-align: center;
 }
 
+.person-card h1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
 .nav-bar {
   background-color: white;
   font-size: 35px;
   /* padding-bottom: 200px; */
   height: 80px;
   padding: 20px 20px;
+}
+
+.home-link a{
+  color: black;
+  text-decoration: none;
+  top: 0px;
+  transition: top ease 0.5s;
+  position: relative;
+}
+
+.home-link a:hover {
+  top: -10px;
+  cursor: pointer;
+  color: rgb(168, 168, 163);
 }
 
 .details-banner {

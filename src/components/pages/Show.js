@@ -2,7 +2,6 @@ import React from 'react'
 import '../../Show.css';
 import { useParams } from 'react-router-dom'
 import Person from '.././Person'
-import {Link} from 'react-router-dom'
 
 export default function ShowPage(props) {
     const { id } = useParams()
@@ -16,15 +15,8 @@ export default function ShowPage(props) {
         }
     }
     return(
-        <>
-        <div className = "nav-bar">
-            <ul>
-                <li>
-                    <Link to={"/"}>Home</Link>
-                </li>
-            </ul>
+        <div>
+            {loading()}
         </div>
-        {loading()}
-        </>
     )
 }
