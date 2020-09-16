@@ -41,21 +41,5 @@ return (
 );
 }
 }
-{/* return (
-    <div className="App">
-        <Banner />
-        <div className = "people">
-            {this.showPeople()}
-        </div>
-        <Router>
-        <Switch>
-            <Route exact path= '/'>
-            <Route exact path = "/:id" render = {props => <ShowPage {...props} people = {this.state.people}/>}/>
-        </Switch>
-        </Router>
-    </div>
-);
-}
-} */}
 
 export default Home;

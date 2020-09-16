@@ -106,12 +106,20 @@ body {
   text-align: center;
 }
 
+.details-banner {
+  background-image: url("https://images.unsplash.com/photo-1591155426209-23831d47700d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
+  height: 400px;
+  background-size: cover;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
 .details {
 
   display: block;
   overflow: auto;
   background-color: white;
-  padding: 20px 20px;
+  /* padding: 20px 20px; */
   font-family: sans-serif;
   font-size: 20px;
 }
@@ -120,6 +128,7 @@ body {
   font-family: sans-serif;
   font-size: 30px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .details-birthdate, .details-deathdate {
@@ -140,6 +149,7 @@ body {
   background-color: lightgoldenrodyellow;
   float: left;
   margin-bottom: 40px;
+  margin: 20px 20px;
 }
 
 .details-details::before,
@@ -171,17 +181,16 @@ body {
 
 .details-aftermath {
   min-height: 5em;
-  /* max-height: 500px; */
   width: 800px;
   max-height: 400px;
   display: block;
-  /* overflow: auto; */
   overflow: scroll;
   padding   : 1em 4em;
   font      : 1em/150% sans-serif;
   position  : relative;
   background-color: lightgoldenrodyellow;
   float: right;
+  margin: 20px 20px;
 }
 
 .details-aftermath::before,
