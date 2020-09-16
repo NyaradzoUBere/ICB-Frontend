@@ -106,6 +106,14 @@ body {
   text-align: center;
 }
 
+.nav-bar {
+  background-color: white;
+  font-size: 35px;
+  /* padding-bottom: 200px; */
+  height: 80px;
+  padding: 20px 20px;
+}
+
 .details-banner {
   background-image: url("https://images.unsplash.com/photo-1591155426209-23831d47700d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
   height: 400px;
@@ -125,8 +133,11 @@ body {
 }
 
 .details-name {
-  font-family: sans-serif;
-  font-size: 30px;
+  /* font-family: sans-serif; */
+  font-family: cursive;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: bolder;
   text-align: center;
   margin-top: 20px;
 }
@@ -146,7 +157,7 @@ body {
   padding   : 1em 4em;
   font      : 1em/150% sans-serif;
   position  : relative;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(168, 168, 163);
   float: left;
   margin-bottom: 40px;
   margin: 20px 20px;
@@ -188,7 +199,7 @@ body {
   padding   : 1em 4em;
   font      : 1em/150% sans-serif;
   position  : relative;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(168, 168, 163);
   float: right;
   margin: 20px 20px;
 }

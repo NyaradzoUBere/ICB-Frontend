@@ -15,8 +15,13 @@ export default function ShowPage(props) {
         }
     }
     return(
-        <div>
-            {loading()}
+        <>
+        <div className = "nav-bar">
+            <ul>
+                <li>Home</li>
+            </ul>
         </div>
+        {loading()}
+        </>
     )
 }
