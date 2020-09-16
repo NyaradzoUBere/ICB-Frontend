@@ -1,6 +1,7 @@
 import React from 'react';
 import PersonCard from '.././PersonCard'
 import Banner from '.././Banner'
+import NavBar from '.././NavBar'
 import ShowPage from './Show';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
@@ -30,6 +31,7 @@ return (
     <Router>
         <Switch>
             <Route exact path= '/'>
+                <NavBar />
                 <Banner />
                 <div className = "people">
                     {this.showPeople()}

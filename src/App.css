@@ -49,6 +49,34 @@ table {
 
 /* END OF MYERS RESET */
 
+.home-nav-bar {
+  background-color: black;
+  padding: 20px 20px;
+}
+
+.home-nav-bar li{
+  display: inline;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: 10px;
+  /* top: 0px;
+  transition: top ease 0.5s;
+  position: relative; */
+  color: white;
+}
+.home-nav-bar li:hover{
+  display: inline;
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  top: -10px;
+  cursor: pointer;
+  /* box-shadow: 20px 20px 30px -10px #192824; */
+  font-weight: bold;
+  color: rgb(168, 168, 163)
+
+}
+
 .banner {
   background-color: white;
   /* background-size: cover; */
@@ -111,7 +139,7 @@ body {
 
 .nav-bar {
   background-color: white;
-  font-size: 35px;
+  font-size: 20px;
   /* padding-bottom: 200px; */
   height: 80px;
   padding: 20px 20px;
