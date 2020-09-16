@@ -59,9 +59,6 @@ table {
   padding: 10px 10px;
   font-size: 20px;
   font-weight: 10px;
-  /* top: 0px;
-  transition: top ease 0.5s;
-  position: relative; */
   color: white;
 }
 .home-nav-bar li:hover{
@@ -71,7 +68,6 @@ table {
   cursor: pointer;
   top: -10px;
   cursor: pointer;
-  /* box-shadow: 20px 20px 30px -10px #192824; */
   font-weight: bold;
   color: rgb(168, 168, 163)
 
@@ -79,7 +75,6 @@ table {
 
 .banner {
   background-color: white;
-  /* background-size: cover; */
   height: 400px;
   width: 100%;
 }
@@ -122,9 +117,7 @@ table {
 }
 
 body {
-  /* margin: 20px 20px; */
   background-image: linear-gradient(#edd1b5, #f9f5eb, #f5dbc1);
-  /* background-image: url("https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"); */
   background-size: cover;
 }
 
@@ -140,8 +133,6 @@ body {
 .nav-bar {
   background-color: black;
   font-size: 20px;
-  /* padding-bottom: 200px; */
-  /* height: 80px; */
   padding: 20px 20px;
 }
 
@@ -165,11 +156,9 @@ body {
 }
 
 .details {
-
   display: block;
   overflow: auto;
   background-color: white;
-  /* padding: 20px 20px; */
   font-family: sans-serif;
   font-size: 20px;
 }
@@ -179,7 +168,6 @@ h1.label{
   position: absolute;
   font-size: 35px;
   margin-left: 60px;
-  /* padding-bottom: 20px; */
   background-color: white;
   border: 2px rgb(83, 81, 81) solid;
   padding: 5px 5px;
@@ -190,7 +178,6 @@ h1.label{
   z-index: 2;
   position: absolute;
   font-size: 35px;
-  /* padding-bottom: 20px; */
   background-color: white;
   border: 2px rgb(83, 81, 81) solid;
   padding: 5px 5px;
@@ -204,7 +191,6 @@ h1.label{
 }
 
 .details-name {
-  /* font-family: sans-serif; */
   font-family: cursive;
   font-size: 40px;
   letter-spacing: 10px;
@@ -222,8 +208,6 @@ h1.label{
   min-height: 5em;
   max-height: 400px;
   width: 800px;
-  /* display: block;
-  overflow: auto; */
   overflow: scroll;
   padding: 1em 4em;
   padding-top: 40px;
@@ -269,9 +253,9 @@ h1.label{
   max-height: 400px;
   display: block;
   overflow: scroll;
-  padding   : 1em 4em;
-  font      : 1em/150% sans-serif;
-  position  : relative;
+  padding: 1em 4em;
+  font: 1em/150% sans-serif;
+  position: relative;
   background-color: rgb(168, 168, 163);
   float: right;
   margin: 20px 40px;
@@ -305,8 +289,3 @@ h1.label{
   text-style: italic;
   text-align: right;
 }
-
-/* .details-age {
-  font-size: 60px;
-  padding-top: 200px;
-} */
