@@ -28,6 +28,7 @@ export default function Person(props) {
             <p className = "details-details">{props.person.details}</p>
             {/* <p className = "details-age">{props.person.age}</p> */}
             <p className = "details-aftermath">{props.person.aftermath}</p>
+            <h1 className = "aftermath-label">The Aftermath</h1>
         </div>
         </>
     )

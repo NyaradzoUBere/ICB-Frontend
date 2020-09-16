@@ -189,6 +189,23 @@ h1.label{
   transform: rotate(-5deg);
 }
 
+.aftermath-label {
+  z-index: 2;
+  position: absolute;
+  font-size: 35px;
+  /* padding-bottom: 20px; */
+  background-color: white;
+  border: 2px rgb(83, 81, 81) solid;
+  padding: 5px 5px;
+  transform: rotate(5deg);
+  width: 250px;
+  height: 35px;
+  margin-top: 500px;
+  margin-left: 1100px;
+  text-align: center;
+  float: right;
+}
+
 .details-name {
   /* font-family: sans-serif; */
   font-family: cursive;
@@ -262,6 +279,7 @@ h1.label{
   float: right;
   margin: 20px 40px;
   z-index: 1;
+  padding-top: 40px;
 }
 
 .details-aftermath::before,
