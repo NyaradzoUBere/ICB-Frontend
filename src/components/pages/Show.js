@@ -1,8 +1,22 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import '../../Show.css';
+import { useParams } from 'react-router-dom'
+import Person from '.././Person'
 
 export default function ShowPage(props) {
+    const { id } = useParams()
+    const person = props.people.find(person => person.id == id)
+
+    const loading = () => {
+        if (person) {
+            return <Person person = {person} />
+        } else {
+            return <p>Page is loading</p>
+        }
+    }
     return(
-        <h1>hello</h1>
+        <div>
+            {loading()}
+        </div>
     )
 }

@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './components/pages/Home'
-import Show from './components/pages/Show'
+import Banner from './components/Banner'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import ShowPage from './components/pages/Show';
 
 class App extends React.Component {
 
@@ -11,15 +10,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Router>
-          <Switch>
-            <Route exact path= '/'>
-                <Home />
-            </Route>
-            {/* <Route exact path= "/show" component = {Show} /> */}
-            <Route path = '/show' render={(props) => <ShowPage {...props} />} />
-          </Switch>
-        </Router>
+        <Home />
       </div>
     );
   }
