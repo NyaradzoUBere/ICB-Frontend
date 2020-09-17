@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import ArticleCard from '.././ArticleCard'
 
-const newsURL = "http://newsapi.org/v2/everything?q=blm&from=2020-08-17&sortBy=publishedAt&apiKey=540c18062492423c90061fefc752f212"
+const newsURL = "http://newsapi.org/v2/everything?q=%22blm_protest%22&language=en&from=2020-08-17&sortBy=publishedAt&apiKey=540c18062492423c90061fefc752f212"
 
 class News extends React.Component {
 
@@ -24,14 +24,14 @@ class News extends React.Component {
     }
     render() {
         return (
-            <>
+            <div className = "news-page">
                 <div className = "news-header">
-                    <h1>News</h1>
+                    <h1>In The News</h1>
                 </div>
                 <div className = "articles">
                     {this.showArticles()}
                 </div>
-            </>
+            </div>
         )
         
     }
