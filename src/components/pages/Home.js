@@ -3,6 +3,7 @@ import PersonCard from '.././PersonCard'
 import Banner from '.././Banner'
 import NavBar from '.././NavBar'
 import ShowPage from './Show';
+import News from './News';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
 
@@ -28,8 +29,8 @@ return this.state.people.map(person => {
 render() {
 
 return (
-    <Router>
-        <Switch>
+    <Switch>
+        <Router>
             <Route exact path= '/'>
                 <NavBar />
                 <Banner />
@@ -38,8 +39,10 @@ return (
                 </div>
             </Route>
             <Route exact path = "/:id" render = {props => <ShowPage {...props} people = {this.state.people}/>}/>
-        </Switch>
-    </Router>
+            <Route exact path= "/news/now" component = {News} />
+            
+        </Router>
+    </Switch>
 );
 }
 }
