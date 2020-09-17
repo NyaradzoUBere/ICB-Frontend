@@ -22,9 +22,21 @@ class News extends React.Component {
             return <ArticleCard article = {article} />
         })
     }
+
+    goToHome = () => {
+        if (this.state.news) {
+            return <Link to = {"/"}>Home</Link>
+        } else {
+            return <p>Page Loading...</p>
+        }
+    }
+
     render() {
         return (
             <div className = "news-page">
+                <div className = "nav-bar">
+                    {this.goToHome()}
+                </div>
                 <div className = "news-header">
                     <h1>See Why We Still Can't Breathe</h1>
                 </div>
