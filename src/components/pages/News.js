@@ -26,7 +26,10 @@ class News extends React.Component {
         return (
             <div className = "news-page">
                 <div className = "news-header">
-                    <h1>In The News</h1>
+                    <h1>See Why We Still Can't Breathe</h1>
+                </div>
+                <div className = "news-banner">
+
                 </div>
                 <div className = "articles">
                     {this.showArticles()}

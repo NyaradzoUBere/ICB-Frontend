@@ -1,6 +1,6 @@
 import React from 'react';
 import PersonCard from '.././PersonCard'
-import Banner from '.././Banner'
+import Banner from '../HomeBanner'
 import NavBar from '.././NavBar'
 import ShowPage from './Show';
 import News from './News';
