@@ -6,7 +6,9 @@ export default function ArticleCard(props) {
     return (
         <div className = "article-card">
            <h3 className = "article-title">{article.title}</h3>
-           <img src = {article.urlToImage} alt = {article.title} className = "article-image"/>
+           <a href= {article.url}>
+               <img src = {article.urlToImage} alt = {article.title} className = "article-image"/>
+           </a>
            <p className = "article-description">{article.description}</p>
         </div>
     )
