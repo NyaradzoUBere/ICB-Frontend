@@ -7,7 +7,7 @@ import News from './News';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
 
-const peopleURL = "http://localhost:3000/people"
+const peopleURL = "https://i-cant-breathe.herokuapp.com/people"
 
 class Home extends React.Component {
 state = {
