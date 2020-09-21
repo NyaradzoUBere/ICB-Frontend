@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import ArticleCard from '.././ArticleCard'
 
-const newsURL = "https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=%22george_floyd%22&language=en&from=2020-08-21&sortBy=publishedAt&apiKey=540c18062492423c90061fefc752f212"
+const newsURL = "https://i-cant-breathe.herokuapp.com/middleman"
 
 class News extends React.Component {
 
