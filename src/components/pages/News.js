@@ -38,7 +38,7 @@ class News extends React.Component {
                     {this.goToHome()}
                 </div>
                 <div className = "news-header">
-                    <h1>See Why We Still Can't Breathe</h1>
+                    <h1>In The News</h1>
                 </div>
                 <div className = "news-banner">
 
