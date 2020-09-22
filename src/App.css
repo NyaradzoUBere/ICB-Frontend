@@ -173,6 +173,7 @@ a {
   height: 900px;
   background-size: cover;
   margin: 10px 20px;
+  background-attachment: fixed;
   /* padding: 0px 0px; */
 }
 
