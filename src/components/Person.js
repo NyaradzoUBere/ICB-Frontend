@@ -12,6 +12,7 @@ export default function Person(props) {
 
     return (
         <>
+        {window.scrollTo(0, 0)}
         <div className = "nav-bar">
             <ul>
                 <li className = "home-link">
