@@ -184,7 +184,60 @@ a {
   font-size: 20px;
 }
 
-h1.label{
+.what-happened-aftermath {
+  display: flex;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  color: white;
+}
+
+.what-happened {
+  /* background-color: grey; */
+  width: 40%;
+  margin: 20px 20px;
+  padding: 25px 25px;
+  line-height: 1.5;
+  height: 500px;
+  overflow: scroll;
+  margin-right: 73px;
+  background-image: url("https://images.unsplash.com/photo-1597956588420-4c57dd3f3ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  background-size: cover 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 50px;
+}
+
+.what-happened-label {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.aftermath-label {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.aftermath {
+  width: 40%;
+  margin: 20px 20px;
+  padding: 25px 25px;
+  line-height: 1.5;
+  height: 500px;
+  overflow: scroll;
+  margin-left: 73px;
+  background-image: url("https://images.unsplash.com/photo-1591253741423-8a44f263f7eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* h1.label{
   z-index: 2;
   position: absolute;
   font-size: 35px;
@@ -193,9 +246,9 @@ h1.label{
   border: 2px rgb(83, 81, 81) solid;
   padding: 5px 5px;
   transform: rotate(-5deg);
-}
+} */
 
-.aftermath-label {
+/* .aftermath-label {
   z-index: 2;
   position: absolute;
   font-size: 35px;
@@ -209,7 +262,7 @@ h1.label{
   margin-left: 1100px;
   text-align: center;
   float: right;
-}
+} */
 
 .details-name {
   font-family: sans-serif;
@@ -228,7 +281,7 @@ h1.label{
 }
 
 .details-details {
-  min-height: 5em;
+  /* min-height: 5em;
   max-height: 400px;
   width: 800px;
   overflow: scroll;
@@ -240,10 +293,10 @@ h1.label{
   float: left;
   margin-bottom: 40px;
   margin: 20px 40px;
-  z-index: 1;
+  z-index: 1; */
 }
 
-.details-details::before,
+/* .details-details::before,
 .details-details::after {
   position: absolute;
   height  : 3rem;
@@ -311,7 +364,7 @@ h1.label{
   margin-top: 1rem;
   text-style: italic;
   text-align: right;
-}
+} */
 
 .news-page {
   background-color: white;

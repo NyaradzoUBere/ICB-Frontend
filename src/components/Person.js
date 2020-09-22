@@ -26,11 +26,17 @@ export default function Person(props) {
                 <h3 className = "details-deathdate">{props.person.deathdate}</h3>
             </div>
             <div className = "details-banner"></div>
-            <h1 className = "label">What Happened</h1>
-            <p className = "details-details">{props.person.details}</p>
-            {/* <p className = "details-age">{props.person.age}</p> */}
-            <p className = "details-aftermath">{props.person.aftermath}</p>
-            <h1 className = "aftermath-label">The Aftermath</h1>
+            <div className = "what-happened-aftermath">
+                <div className = "what-happened">
+                    <h1 className = "what-happened-label">What Happened</h1>
+                    <p className = "details-details">{props.person.details}</p>
+                </div>
+                {/* <p className = "details-age">{props.person.age}</p> */}
+                <div className = "aftermath">
+                    <h1 className = "aftermath-label">The Aftermath</h1>
+                    <p className = "details-aftermath">{props.person.aftermath}</p>
+                </div>
+            </div>
         </div>
         </>
     )
