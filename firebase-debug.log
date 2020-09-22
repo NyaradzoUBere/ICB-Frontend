@@ -1,0 +1,34 @@
+[debug] [2020-09-22T02:01:57.143Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T02:01:57.145Z] Command:       /Users/Nyaradzo/.nvm/versions/node/v14.4.0/bin/node /Users/Nyaradzo/.nvm/versions/node/v14.4.0/bin/firebase deploy --only hosting:icantbreatheapp
+[debug] [2020-09-22T02:01:57.145Z] CLI Version:   8.10.0
+[debug] [2020-09-22T02:01:57.146Z] Platform:      darwin
+[debug] [2020-09-22T02:01:57.146Z] Node Version:  v14.4.0
+[debug] [2020-09-22T02:01:57.147Z] Time:          Mon Sep 21 2020 20:01:57 GMT-0600 (Mountain Daylight Time)
+[debug] [2020-09-22T02:01:57.147Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T02:01:57.147Z] 
+[debug] [2020-09-22T02:01:57.155Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-22T02:01:57.156Z] > authorizing via signed-in user
+[debug] [2020-09-22T02:01:57.156Z] [iam] checking project i-cant-breathe for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-22T02:01:57.159Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-22T02:01:57.159Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-22T02:01:57.308Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 22 Sep 2020 02:01:57 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-22T02:01:57.337Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/i-cant-breathe:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-22T02:01:57.522Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 22 Sep 2020 02:01:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=101","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-22T02:01:57.525Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/i-cant-breathe  
+ 
+[debug] [2020-09-22T02:01:57.681Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 22 Sep 2020 02:01:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'i-cant-breathe'...
+[info] 
+[info] i  deploying hosting 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/i-cant-breathe/overview
+[debug] [2020-09-22T02:01:57.807Z] TypeError: Cannot read property 'deploys' of undefined
+    at /Users/Nyaradzo/.nvm/versions/node/v14.4.0/lib/node_modules/firebase-tools/lib/deploy/index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
