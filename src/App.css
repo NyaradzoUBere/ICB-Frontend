@@ -115,12 +115,17 @@ table {
   list-style-type: none;
   text-align: center;
   background-image: linear-gradient(#edd1b5, #f9f5eb, #f5dbc1);
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 body {
   /* background-image: linear-gradient(#edd1b5, #f9f5eb, #f5dbc1); */
   background-image: white;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -142,6 +147,8 @@ a {
   font-size: 20px;
   padding: 20px 20px;
   text-align: left;
+  position: fixed;
+  width: 100%;
 }
 
 .home-link a{
