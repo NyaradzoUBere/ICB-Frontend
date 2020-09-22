@@ -204,13 +204,10 @@ p.details-short-description {
 
 .what-happened-aftermath {
   display: flex;
-  /* margin-left: 10%;
-  margin-right: 10%; */
   color: white;
 }
 
 .what-happened {
-  /* background-color: grey; */
   width: 40%;
   margin: 20px 20px;
   padding: 25px 25px;
@@ -257,33 +254,6 @@ p.details-short-description {
   font-weight: 20px;
 }
 
-/* h1.label{
-  z-index: 2;
-  position: absolute;
-  font-size: 35px;
-  margin-left: 60px;
-  background-color: white;
-  border: 2px rgb(83, 81, 81) solid;
-  padding: 5px 5px;
-  transform: rotate(-5deg);
-} */
-
-/* .aftermath-label {
-  z-index: 2;
-  position: absolute;
-  font-size: 35px;
-  background-color: white;
-  border: 2px rgb(83, 81, 81) solid;
-  padding: 5px 5px;
-  transform: rotate(5deg);
-  width: 250px;
-  height: 35px;
-  margin-top: 500px;
-  margin-left: 1100px;
-  text-align: center;
-  float: right;
-} */
-
 .details-name {
   font-family: sans-serif;
   font-size: 120px;
@@ -299,92 +269,6 @@ p.details-short-description {
   margin-top: 30px;
   font-size: 40px;
 }
-
-.details-details {
-  /* min-height: 5em;
-  max-height: 400px;
-  width: 800px;
-  overflow: scroll;
-  padding: 1em 4em;
-  padding-top: 40px;
-  font: 1em/150% sans-serif;
-  position  : relative;
-  background-color: rgb(168, 168, 163);
-  float: left;
-  margin-bottom: 40px;
-  margin: 20px 40px;
-  z-index: 1; */
-}
-
-/* .details-details::before,
-.details-details::after {
-  position: absolute;
-  height  : 3rem;
-  font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
-}
-
-.details-details::before {
-  content: '«';
-  top    : 0.3rem;
-  left   : 0.9rem;
-}
-
-.details-details::after {
-  content: '»';
-  bottom : 0.3rem;
-  right  : 0.8rem;
-}
-
-.details-aftermath i {
-  display   : block;
-  font-size : 0.8em;
-  margin-top: 1rem;
-  text-style: italic;
-  text-align: right;
-}
-
-.details-aftermath {
-  min-height: 5em;
-  width: 800px;
-  max-height: 400px;
-  display: block;
-  overflow: scroll;
-  padding: 1em 4em;
-  font: 1em/150% sans-serif;
-  position: relative;
-  background-color: rgb(168, 168, 163);
-  float: right;
-  margin: 20px 40px;
-  z-index: 1;
-  padding-top: 40px;
-}
-
-.details-aftermath::before,
-.details-aftermath::after {
-  position: absolute;
-  height  : 3rem;
-  font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
-}
-
-.details-aftermath::before {
-  content: '«';
-  top    : 0.3rem;
-  left   : 0.9rem;
-}
-
-.details-aftermath::after {
-  content: '»';
-  bottom : 0.3rem;
-  right  : 0.8rem;
-}
-
-.details-aftermath i {
-  display   : block;
-  font-size : 0.8em;
-  margin-top: 1rem;
-  text-style: italic;
-  text-align: right;
-} */
 
 .news-page {
   background-color: white;
