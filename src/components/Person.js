@@ -25,7 +25,9 @@ export default function Person(props) {
                 <h3 className = "details-birthdate">{props.person.birthdate} ~</h3>
                 <h3 className = "details-deathdate">{props.person.deathdate}</h3>
             </div>
-            <div className = "details-banner"></div>
+            <div className = "details-banner">
+                <p className = "details-short-description">The events surrounding {props.person.name} occured in {props.person.location}. {props.person.name} was {props.person.age} years old.</p>
+            </div>
             <div className = "what-happened-aftermath">
                 <div className = "what-happened">
                     <h1 className = "what-happened-label">What Happened</h1>
