@@ -20,10 +20,12 @@ export default function Person(props) {
             </ul>
         </div>
         <div className = "details">
+            <div className = "name-dates">
+                <h1 className = "details-name">{props.person.name}</h1>
+                <h3 className = "details-birthdate">{props.person.birthdate} ~</h3>
+                <h3 className = "details-deathdate">{props.person.deathdate}</h3>
+            </div>
             <div className = "details-banner"></div>
-            <h1 className = "details-name">{props.person.name}</h1>
-            <h3 className = "details-birthdate">{props.person.birthdate} ~</h3>
-            <h3 className = "details-deathdate">{props.person.deathdate}</h3>
             <h1 className = "label">What Happened</h1>
             <p className = "details-details">{props.person.details}</p>
             {/* <p className = "details-age">{props.person.age}</p> */}
