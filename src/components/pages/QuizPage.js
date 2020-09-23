@@ -138,7 +138,7 @@ class QuizPage extends Component {
           </div>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
-      // </div>
+      </div>
     );
   }
 }
