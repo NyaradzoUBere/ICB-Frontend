@@ -1,14 +1,5 @@
 {
   "projects": {
-    "default": "i-cant-breathe"
-  },
-  "targets": {
-    "i-cant-breathe": {
-      "hosting": {
-        "i-cant-breathe": [
-          "icantbreatheapp"
-        ]
-      }
-    }
+    "default": "icantbreatheapp"
   }
 }
