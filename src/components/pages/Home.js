@@ -35,7 +35,6 @@ return (
                 <NavBar />
                 <Banner />
                 <div className = "people">
-                    
                     {this.showPeople()}
                 </div>
             </Route>
