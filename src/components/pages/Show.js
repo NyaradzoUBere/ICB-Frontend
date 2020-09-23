@@ -5,7 +5,7 @@ import Person from '.././Person'
 
 export default function ShowPage(props) {
     const { id } = useParams()
-    const person = props.people.find(person => person.id == id)
+    const person = props.people.find(person => +person.id === +id)
 
     const loading = () => {
         if (person) {

@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import ArticleCard from '.././ArticleCard'
 
 const newsURL = "https://i-cant-breathe.herokuapp.com/middleman"
@@ -22,20 +21,9 @@ class News extends React.Component {
         })
     }
 
-    goToHome = () => {
-        if (this.state.news) {
-            return <Link to = {"/"}>Home</Link>
-        } else {
-            return <p>Page Loading...</p>
-        }
-    }
-
     render() {
         return (
             <div className = "news-page">
-                <div className = "nav-bar">
-                    {this.goToHome()}
-                </div>
                 <div className = "news-header">
                     <h1>In The News</h1>
                 </div>

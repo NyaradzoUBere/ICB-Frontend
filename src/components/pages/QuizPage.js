@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import quizQuestions from '../../api/quizQuestions';
 import Quiz from '../Quiz';
 import Result from '../Result';
-import {Link} from 'react-router-dom'
 
 class QuizPage extends Component {
   constructor(props) {
@@ -118,21 +117,10 @@ class QuizPage extends Component {
     return <Result quizResult={this.state.result} />;
   }
 
-  goToHome() {
-    if (this.state.question) {
-        return <Link to = {"/"}>Home</Link>
-    } else {
-        return <p>Page Loading...</p>
-    }
-}
-
   render() {
     return (
       <div className="quiz-page">
-        <div className = "nav-bar">
-          {this.goToHome()}
-        </div>
-        <div className = "quiz-content">
+        <div className="quiz-content">
           <div className="quiz-header">
             <h2>Unconscious Bias Self Assessment</h2>
           </div>

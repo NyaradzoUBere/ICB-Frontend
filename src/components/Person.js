@@ -1,25 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 export default function Person(props) {
-    const goToHome = () => {
-        if (props.person) {
-            return <Link to = {"/"}>Home</Link>
-        } else {
-            return <p>Page Loading...</p>
-        }
-    }
 
     return (
         <>
         {window.scrollTo(0, 0)}
-        <div className = "nav-bar">
-            <ul>
-                <li className = "home-link">
-                    {goToHome()}
-                </li>
-            </ul>
-        </div>
         <div className = "details">
             <div className = "name-dates">
                 <h1 className = "details-name">{props.person.name}</h1>
