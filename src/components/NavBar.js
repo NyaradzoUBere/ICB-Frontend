@@ -6,13 +6,13 @@ export default function NavBar() {
         <div className = "nav-bar">
             <ul>
                 <li>
-                    <Link to = {"/"}>Home</Link>
+                    <Link to ="/">Home</Link>
                 </li>
                 <li>
-                    <Link to = {"/quiz/self"}>Check My Bias</Link>
+                    <Link to ="/quiz/self">Check My Bias</Link>
                 </li>
                 <li>
-                    <Link to = {"/news/now"}>In The News</Link>
+                    <Link to ="/news/now">In The News</Link>
                 </li>
                 <li>Profile</li>
             </ul>
