@@ -75,8 +75,11 @@ table {
   cursor: pointer;
   top: -10px;
   cursor: pointer;
+}
+
+.nav-bar a:hover {
   font-weight: bold;
-  color: rgb(168, 168, 163)
+  color: rgb(168, 168, 163);
 }
 
 .banner {
@@ -165,14 +168,14 @@ a {
   font-size: 20px;
 }
 
-.nav-bar a{
+/* .nav-bar a{
   color: black
 }
 
 .nav-bar a:hover {
   color: rgb(168, 168, 163);
   font-weight: bold;
-}
+} */
 
 .name-dates {
   height: 800px;
