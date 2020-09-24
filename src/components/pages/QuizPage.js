@@ -120,10 +120,10 @@ class QuizPage extends Component {
   render() {
     return (
       <div className="quiz-page">
+        <div className="quiz-header">
+          <h2>Unconscious Bias Self Assessment</h2>
+        </div>
         <div className="quiz-content">
-          <div className="quiz-header">
-            <h2>Unconscious Bias Self Assessment</h2>
-          </div>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
       </div>
