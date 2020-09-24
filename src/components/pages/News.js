@@ -23,6 +23,8 @@ class News extends React.Component {
 
     render() {
         return (
+            <>
+            {window.scrollTo(0, 0)}
             <div className = "news-page">
                 <div className = "news-header">
                     <h1>In The News</h1>
@@ -34,6 +36,7 @@ class News extends React.Component {
                     {this.showArticles()}
                 </div>
             </div>
+            </>
         )
         
     }

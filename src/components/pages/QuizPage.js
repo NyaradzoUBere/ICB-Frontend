@@ -119,6 +119,8 @@ class QuizPage extends Component {
 
   render() {
     return (
+      <>
+      {window.scrollTo(0, 0)}
       <div className="quiz-page">
         <div className="quiz-header">
           <h2>Unconscious Bias Self Assessment</h2>
@@ -127,6 +129,7 @@ class QuizPage extends Component {
           {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
       </div>
+      </>
     );
   }
 }
