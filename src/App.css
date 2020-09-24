@@ -180,6 +180,7 @@ a {
 
 p.details-short-description {
   color: white;
+  font-weight: bolder;
   font-size: 50px;
   line-height: 2;
   width: 75%;
