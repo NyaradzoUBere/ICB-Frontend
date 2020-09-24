@@ -25,6 +25,9 @@ export default function Person(props) {
                     <p className = "details-aftermath">{props.person.aftermath}</p>
                 </div>
             </div>
+            <div className = "check-bias-banner">
+                <p className = "check-bias-text">We all have bias. Check Yours</p>
+            </div>
         </div>
         </>
     )
