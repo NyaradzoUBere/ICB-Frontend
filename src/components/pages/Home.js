@@ -5,7 +5,7 @@ import NavBar from '.././NavBar'
 import ShowPage from './Show';
 import News from './News';
 import QuizPage from './QuizPage'
-import {BrowserRouter as Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, BrowserRouter} from 'react-router-dom'
 
 
 const peopleURL = "https://i-cant-breathe.herokuapp.com/people"
