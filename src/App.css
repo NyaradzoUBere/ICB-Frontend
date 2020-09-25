@@ -299,7 +299,7 @@ p.details-short-description {
   font-weight: bolder;
   line-height: 2;
   width: 75%;
-  padding: 20px 20px;
+  padding: 10px 20px;
   text-shadow: 2px 2px 5px black;
   letter-spacing: 5px;
   float: right;
@@ -315,6 +315,10 @@ p.details-short-description {
 .news-page {
   background-color: white;
   text-align: center;
+  display: block;
+  overflow: auto;
+  /* height: cover; */
+  /* height: 100%; */
 }
 
 .news-banner {
@@ -383,7 +387,8 @@ p.details-short-description {
 
 .quiz-page {
   width: cover;
-  height: 900px;
+  display: block;
+  overflow: auto;
 }
 
 .quiz-header {
@@ -393,6 +398,7 @@ p.details-short-description {
   color: white;
   text-align: center;
   width: 1440px;
+  /* width: cover; */
   font-size: 50px;
   letter-spacing: 3px;
 }
@@ -460,7 +466,7 @@ p.details-short-description {
 }
 
 .answerOption:hover {
-  background-color: #fcf4ef49;
+  background-color: #edd1b527;
 }
 
 .radioCustomButton {
