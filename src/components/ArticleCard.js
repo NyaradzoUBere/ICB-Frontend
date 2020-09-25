@@ -8,7 +8,7 @@ export default function ArticleCard(props) {
            <a href={article.url} target="_blank" rel="noopener noreferrer">
                <img src = {article.urlToImage} alt = {article.title} className = "article-image"/>
            </a>
-           {/* <p className = "article-description">{article.description}</p> */}
+           <p className = "article-description">{article.description}</p>
         </div>
     )
 }
