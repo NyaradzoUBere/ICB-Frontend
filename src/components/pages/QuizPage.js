@@ -88,7 +88,6 @@ class QuizPage extends Component {
     const answersCountKeys = Object.keys(answersCount);
     const answersCountValues = answersCountKeys.map(key => answersCount[key]);
     const maxAnswerCount = Math.max.apply(null, answersCountValues);
-
     return answersCountKeys.filter(key => answersCount[key] === maxAnswerCount);
   }
 
@@ -96,7 +95,7 @@ class QuizPage extends Component {
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
-      this.setState({ result: 'Undetermined' });
+      this.setState({ result: 'Too mixed to tell' });
     }
   }
 
