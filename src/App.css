@@ -275,7 +275,8 @@ p.details-short-description {
   background-size: cover;
   margin: 10px 20px;
   background-attachment: fixed;
-  margin-bottom: 150px;
+  margin-bottom: 90px;
+  /* display: flex; */
 }
 
 .check-bias-text {
@@ -290,6 +291,24 @@ p.details-short-description {
   float: right;
   text-align: right;
 
+}
+
+.bias-link {
+  color: white;
+  font-size: 90px;
+  font-weight: bolder;
+  line-height: 2;
+  width: 75%;
+  padding: 20px 20px;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 5px;
+  float: right;
+  text-align: right;
+}
+
+.bias-link:hover{
+  border-bottom: 3px white solid;
+  border-width: 10px;
 }
 /* NEWS PAGE STYLING */
 
@@ -518,4 +537,17 @@ p.details-short-description {
 .fade-appear.fade-appear-active {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+}
+
+/* FOOTER */
+.footer {
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+
+.footer-description {
+  width: 400px;
+  padding: 20px 50px;
+  line-height: 2;
 }
