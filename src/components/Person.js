@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Person(props) {
 
@@ -26,7 +27,8 @@ export default function Person(props) {
                 </div>
             </div>
             <div className = "check-bias-banner">
-                <p className = "check-bias-text">We all have bias. Check Yours</p>
+                <p className = "check-bias-text">We all have bias.</p>
+                <Link className = "bias-link" to = '/quiz/self'>Check Yours</Link>
             </div>
         </div>
         </>
