@@ -194,18 +194,26 @@ p.details-short-description {
 }
 
 .what-happened-aftermath {
-  display: flex;
+  /* display: block; */
   color: white;
+  
+  /* align-content: center; */
+  /* align-self: center; */
+  /* padding-left: 40px; */
+  
 }
 
 .what-happened {
-  width: 50%;
+  /* align-self: left; */
+  /* float: left; */
+  /* position: fixed; */
+  /* width: 60%; */
   margin: 20px 20px;
   padding: 25px 25px;
-  line-height: 1.5;
-  height: 500px;
-  overflow: scroll;
-  margin-right: 73px;
+  line-height: 2;
+  /* height: 500px; */
+  /* overflow: scroll; */
+  /* margin-right: 73px; */
   color: black;
   background-size: cover 100%;
   background-repeat: no-repeat;
@@ -215,41 +223,56 @@ p.details-short-description {
 }
 
 .details-details {
+  text-align: left;
   border-radius: 3px;
-  padding: 5px 15px;
+  padding: 5px 40px;
+  font-weight: 300;
+  /* padding: 0px 40px; */
 }
 
 .details-aftermath {
-  padding: 5px 15px;
+  padding: 5px 40px;
 }
 
 .what-happened-label {
-  text-align: center;
-  font-weight: bolder;
+  text-align: left;
+  font-weight: lighter;
   font-size: 35px;
   letter-spacing: 5px;
   padding: 5px 5px;
+  color: #b48f6a;
+  padding: 5px 40px;
 }
 
 .aftermath-label {
-  text-align: center;
-  font-weight: bolder;
+  text-align: left;
+  font-weight: lighter;
   font-size: 35px;
   letter-spacing: 5px;
   width: cover;
   padding: 5px 5px;
+  color: #b48f6a;
+  padding: 5px 40px;
 }
 
 .aftermath {
-  width: 50%;
+  /* justify-content: right; */
+  text-align: left;
+  /* position: absolute; */
+  /* align-content: right; */
+  /* width: 60%; */
   margin: 20px 20px;
+  /* margin-left: 470px; */
   padding: 25px 25px;
-  line-height: 1.5;
-  height: 500px;
-  overflow: scroll;
-  margin-left: 73px;
+  line-height: 2;
+  /* height: 500px; */
+  /* overflow: scroll; */
+  /* margin-left: 73px; */
   color: black;
-  border-top: 5px solid rgb(44, 43, 43);
+  /* position: absolute; */
+  /* border-top: 5px solid rgb(44, 43, 43); */
+  font-weight: 300;
+  /* padding: 5px 40px; */
 }
 
 .details-name {
