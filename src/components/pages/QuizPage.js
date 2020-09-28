@@ -21,6 +21,7 @@ class QuizPage extends Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0)
     const shuffledAnswerOptions = quizQuestions.map(question =>
       this.shuffleArray(question.answers)
     );
@@ -119,7 +120,6 @@ class QuizPage extends Component {
   render() {
     return (
       <>
-      {window.scrollTo(0, 0)}
       <div className="quiz-page">
         <div className="quiz-header">
           <h2>Unconscious Bias Self Assessment</h2>

@@ -412,8 +412,6 @@ p.details-short-description {
 
 .quiz-content {
   padding-top: 20px;
-  /* width: 600px; */
-  /* height: 500px; */
   margin-left: 30%;
   margin-right: 30%;
 }
@@ -423,6 +421,8 @@ p.details-short-description {
   background: #fff;
   border-radius: 3px;
   border-top: 5px solid rgba(44, 43, 43, 0.637);
+  height: 450px;
+  overflow: hidden;
 }
 
 @media (min-width: 769px) {
@@ -519,9 +519,9 @@ p.details-short-description {
 }
 
 .fade-leave {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   opacity: 1;
 }
