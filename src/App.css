@@ -209,9 +209,12 @@ table {
   }
 
   .container {
-    width: 90vw;
-    margin: 0px;
-    /* height: 500px; */
+    width: 400px;
+    background: #fff;
+    border-radius: 3px;
+    border-top: 5px solid rgba(44, 43, 43, 0.637);
+    overflow: hidden;
+    height: 500px;
   }
 
   .quiz-content {
@@ -505,6 +508,16 @@ a {
   .answerOption:hover {
     background-color: #edd1b527;
   }
+
+  .container {
+    width: 400px;
+    background: #fff;
+    border-radius: 3px;
+    border-top: 5px solid rgba(44, 43, 43, 0.637);
+    overflow: hidden;
+    height: 476px;
+  }
+
 }
 
 
@@ -635,14 +648,7 @@ a {
   
 }
 
-.container {
-  width: 400px;
-  background: #fff;
-  border-radius: 3px;
-  border-top: 5px solid rgba(44, 43, 43, 0.637);
-  overflow: hidden;
-  height: 476px;
-}
+
 
 .result {
   padding: 1.5rem 2.5rem;
