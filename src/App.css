@@ -49,20 +49,6 @@ table {
 
 /* END OF MYERS RESET */
 
-html {
-  overflow-x: hidden;
-}
-
-body {
-  background-image: white;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  font-display: swap;
-}
-
 @media (max-width: 500px) {
   .nav-bar a{
     font-size: 15px;
@@ -89,19 +75,69 @@ body {
     width: 100vw;
   }
 
+  /* See why details media query won't work */
 
+  .details {
+    width: 100vw;
+  }
   h1.details-name {
-    font-size: 70px;
-    /* overflow-wrap: break-word; */
+    font-size: 50px;
+  }
+  
+  .details-banner {
+    margin: 0;
+  }
+  
+  .details-short-description {
+    font-size: 30px;
+    
   }
 
-  .details-short-description {
-    font-size: 30%;
+  .quiz-header h2 {
+    font-size: 40px;
+    /* width: 100vw; */
   }
+
+  /* See why quiz won't adjust */
+
+  .quiz-page {
+    /* display: flex; */
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .container {
+    width: 90vw;
+    margin: 0px;
+    height: 500px;
+  }
+
+  .quiz-content {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 0px;
+    /* height: 1900px; */
+  }
+
 
   .footer-description {
     width: 100vw;
   }
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: white;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-display: swap;
 }
 
 .nav-bar {
@@ -451,8 +487,8 @@ p.details-short-description {
 
 .quiz-page {
   display: block;
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
   padding-bottom: 80px;
 }
 
@@ -464,6 +500,7 @@ p.details-short-description {
   text-align: center;
   font-size: 50px;
   letter-spacing: 3px;
+  width: 100vw;
 }
 
 
@@ -478,24 +515,30 @@ p.details-short-description {
 
 .quiz-content {
   padding-top: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .container {
-  width: 100%;
+  /* width: 100%; */
+  width: 400px;
   background: #fff;
   border-radius: 3px;
   border-top: 5px solid rgba(44, 43, 43, 0.637);
-  height: 450px;
+  /* height: 450px; */
   overflow: hidden;
+  height: 460px;
+  /* align-self: center; */
+  
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   .container {
     margin: 2.5rem auto;
   }
-}
+} */
 
 .result {
   padding: 1.5rem 2.5rem;
