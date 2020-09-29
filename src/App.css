@@ -529,19 +529,13 @@ a {
     background-color: black;
     color: white;
     width: 100%;
-    /* padding: 10px 10px; */
     text-align: center;
-    /* align-content: center; */
-    /* justify-content: center; */
-    /* position: relative; */
   }
   
   .footer-description {
     width: 40%;
     line-height: 1.5;
     letter-spacing: 1px;
-    /* vertical-align: middle; */
-    /* text-align: center; */
     display: inline-block;
     padding-bottom: 20px;
   }
