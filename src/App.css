@@ -75,8 +75,6 @@ table {
     width: 100vw;
   }
 
-  /* See why details media query won't work */
-
   .details {
     width: 100vw;
   }
@@ -173,7 +171,6 @@ table {
     font-size: 50px;
     font-weight: bolder;
     line-height: 2;
-    /* width: 100%; */
     padding: 20px 20px;
     text-shadow: 2px 2px 5px black;
     letter-spacing: 4px;
@@ -187,8 +184,6 @@ table {
     font-size: 50px;
     font-weight: bolder;
     line-height: 2;
-    /* width: 75%; */
-    /* padding: 10px 20px; */
     text-shadow: 2px 2px 5px black;
     letter-spacing: 4px;
     float: right;
@@ -227,6 +222,77 @@ table {
     padding-top: 0px;
   }
 
+  /* NEWS PAGE */
+
+  .news-page {
+    background-color: white;
+    text-align: center;
+    display: block;
+    overflow: auto;
+  }
+  
+  .news-banner {
+    background-image: url("https://images.unsplash.com/photo-1591281700819-900258b1423e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    height: 500px;
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 50px;
+  }
+  
+  .news-header {
+    padding-top: 150px;
+    color: #cfa67d;
+    font-family: sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .articles {
+    background-color: white;
+    text-align: center;
+    /* margin-left: 40px; */
+  }
+  
+  .article-card {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(156, 155, 155);
+    max-width: 400px;
+    margin: 20px 20px;
+    height: 600px;
+    overflow: hidden;
+    top: 0px;
+    transition: top ease 0.5s;
+    position: relative;
+  }
+  
+  .article-card:hover {
+    top: -10px;
+    cursor: pointer;
+  }
+  
+  .article-title {
+    font-size: 30px;
+    padding: 20px; 
+  }
+  
+  .article-image {
+    height: 300px;
+    width: 400px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  
+  .article-description {
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+
+  /* FOOTER */
 
   .footer-description {
     width: 100vw;
@@ -570,6 +636,76 @@ a {
     height: 100px;
   }
 
+  /* NEWS PAGE */
+
+  .news-page {
+    background-color: white;
+    text-align: center;
+    display: block;
+    overflow: auto;
+  }
+  
+  .news-banner {
+    background-image: url("https://images.unsplash.com/photo-1591281700819-900258b1423e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    height: 500px;
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 50px;
+  }
+  
+  .news-header {
+    padding-top: 150px;
+    color: #cfa67d;
+    font-family: sans-serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .articles {
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+  }
+  
+  .article-card {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(156, 155, 155);
+    max-width: 400px;
+    margin: 20px 20px;
+    float: left;
+    height: 600px;
+    overflow: scroll;
+    top: 0px;
+    transition: top ease 0.5s;
+    position: relative;
+  }
+  
+  .article-card:hover {
+    top: -10px;
+    cursor: pointer;
+  }
+  
+  .article-title {
+    font-size: 30px;
+    padding: 20px; 
+  }
+  
+  .article-image {
+    height: 300px;
+    width: 400px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  
+  .article-description {
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
 }
 
 
@@ -595,74 +731,7 @@ a {
 
 /* NEWS PAGE STYLING */
 
-.news-page {
-  background-color: white;
-  text-align: center;
-  display: block;
-  overflow: auto;
-}
 
-.news-banner {
-  background-image: url("https://images.unsplash.com/photo-1591281700819-900258b1423e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-  height: 500px;
-  background-size: cover 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  margin-bottom: 50px;
-}
-
-.news-header {
-  padding-top: 150px;
-  color: #cfa67d;
-  font-family: sans-serif;
-  font-size: 120px;
-  letter-spacing: 10px;
-  font-weight: lighter;
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-.articles {
-  background-color: white;
-  text-align: center;
-  margin-left: 40px;
-}
-
-.article-card {
-  background-color: white;
-  box-shadow: 3px 3px 5px rgb(156, 155, 155);
-  max-width: 400px;
-  margin: 20px 20px;
-  float: left;
-  height: 600px;
-  overflow: scroll;
-  top: 0px;
-  transition: top ease 0.5s;
-  position: relative;
-}
-
-.article-card:hover {
-  top: -10px;
-  cursor: pointer;
-}
-
-.article-title {
-  font-size: 30px;
-  padding: 20px; 
-}
-
-.article-image {
-  height: 300px;
-  width: 400px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-
-.article-description {
-  padding: 20px;
-  padding-bottom: 10px;
-  font-size: 18px;
-}
 
 /* QUIZ STYLING */
 
@@ -783,9 +852,6 @@ a {
 }
 
 .fade-leave {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   width: 100%;
   opacity: 1;
 }
