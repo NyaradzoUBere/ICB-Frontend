@@ -87,6 +87,8 @@ table {
   .details-banner {
     margin: 0;
   }
+
+  /* DETAILS */
   
   .details-short-description {
     color: white;
@@ -99,6 +101,48 @@ table {
     letter-spacing: 2px;
     /* float: right; */
     text-align: right;
+  }
+
+  .what-happened {
+    margin: 20px 20px;
+    line-height: 2;
+    color: black;
+    margin-bottom: 50px;
+    border-top: 5px solid rgb(44, 43, 43);
+  }
+  
+  .details-details {
+    text-align: left;
+    font-weight: 300;
+  }
+  
+  .details-aftermath {
+    padding: 5px 5px;
+  }
+  
+  .what-happened-label {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: #b48f6a;
+  }
+  
+  .aftermath-label {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 35px;
+    letter-spacing: 5px;
+    width: cover;
+    color: #b48f6a;
+  }
+  
+  .aftermath {
+    text-align: left;
+    margin: 20px 20px;
+    line-height: 2;
+    color: black;
+    font-weight: 300;
   }
 
   .quiz-header h2 {
@@ -304,6 +348,58 @@ a {
     float: right;
     text-align: right;
   }
+  .what-happened {
+    margin: 20px 20px;
+    padding: 25px 25px;
+    line-height: 2;
+    color: black;
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 50px;
+    border-top: 5px solid rgb(44, 43, 43);
+  }
+  
+  .details-details {
+    text-align: left;
+    border-radius: 3px;
+    padding: 5px 40px;
+    font-weight: 300;
+  }
+  
+  .details-aftermath {
+    padding: 5px 40px;
+  }
+  
+  .what-happened-label {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding: 5px 5px;
+    color: #b48f6a;
+    padding: 5px 40px;
+  }
+  
+  .aftermath-label {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 35px;
+    letter-spacing: 5px;
+    width: cover;
+    padding: 5px 5px;
+    color: #b48f6a;
+    padding: 5px 40px;
+  }
+  
+  .aftermath {
+    text-align: left;
+    margin: 20px 20px;
+    padding: 25px 25px;
+    line-height: 2;
+    color: black;
+    font-weight: 300;
+  }
 }
 
 
@@ -311,58 +407,6 @@ a {
   color: white;
 }
 
-.what-happened {
-  margin: 20px 20px;
-  padding: 25px 25px;
-  line-height: 2;
-  color: black;
-  background-size: cover 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  margin-bottom: 50px;
-  border-top: 5px solid rgb(44, 43, 43);
-}
-
-.details-details {
-  text-align: left;
-  border-radius: 3px;
-  padding: 5px 40px;
-  font-weight: 300;
-}
-
-.details-aftermath {
-  padding: 5px 40px;
-}
-
-.what-happened-label {
-  text-align: left;
-  font-weight: lighter;
-  font-size: 35px;
-  letter-spacing: 5px;
-  padding: 5px 5px;
-  color: #b48f6a;
-  padding: 5px 40px;
-}
-
-.aftermath-label {
-  text-align: left;
-  font-weight: lighter;
-  font-size: 35px;
-  letter-spacing: 5px;
-  width: cover;
-  padding: 5px 5px;
-  color: #b48f6a;
-  padding: 5px 40px;
-}
-
-.aftermath {
-  text-align: left;
-  margin: 20px 20px;
-  padding: 25px 25px;
-  line-height: 2;
-  color: black;
-  font-weight: 300;
-}
 
 .details-name {
   font-family: sans-serif;
