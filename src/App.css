@@ -90,13 +90,17 @@ table {
 
   /* DETAILS */
 
+  .name-dates {
+    height: 600px;
+  }
+
   .details-banner {
     background-image: url("https://images.unsplash.com/photo-1591155426209-23831d47700d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
     height: 900px;
     background-size: cover;
     margin: 10px 20px;
     background-attachment: fixed;
-    /* background-position: center bottom; */
+    background-position: center bottom;
   }
   
   .details-short-description {
@@ -161,7 +165,7 @@ table {
     margin: 10px 20px;
     background-attachment: fixed;
     margin-bottom: 60px;
-    /* background-position: center bottom; */
+    background-position: center bottom;
   }
   
   .check-bias-text {
@@ -373,10 +377,6 @@ a {
   font-size: 20px;
 }
 
-.name-dates {
-  height: 800px;
-  width: 100%;
-}
 
 
 .details {
@@ -388,6 +388,12 @@ a {
 }
 
 @media (min-width: 501px) {
+  
+  .name-dates {
+    height: 800px;
+    width: 100%;
+  }
+
   .details-banner {
     background-image: url("https://images.unsplash.com/photo-1591155426209-23831d47700d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
     height: 900px;
