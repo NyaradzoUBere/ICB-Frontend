@@ -49,6 +49,71 @@ table {
 
 /* END OF MYERS RESET */
 
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: white;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-display: swap;
+}
+
+@media (max-width: 500px) {
+  .nav-bar a{
+    font-size: 15px;
+    text-align: left;
+    /* margin-left: 50px; */
+  }
+  .nav-bar {
+    padding-left: 60px;
+  }
+  h1.banner-text {
+    font-size: 70px;
+  }
+
+  /* See why media query on image not working */
+
+  /* .person-image {
+    display: block;
+    margin: auto;
+  } */
+
+  .people {
+    width: 100%;
+    overflow: hidden;
+    align-content: center;
+  }
+
+  .App {
+    width: 100vw;
+  }
+
+  .html {
+    width: 100vw;
+  }
+
+  /* See why break word not working */
+
+  h1.details-name {
+    font-size: 70px;
+    /* word-break: break-all; */
+    overflow-wrap: break-word;
+  }
+
+  .details-short-description {
+    font-size: 30%;
+  }
+
+  .footer-description {
+    width: 100vw;
+  }
+}
+
 .nav-bar {
   background-color: white;
   padding: 1% 1%;
@@ -60,6 +125,8 @@ table {
   position: fixed;
   height: 60px;
   /* overflow: hidden; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-bar li{
@@ -154,17 +221,11 @@ table {
   background-image: linear-gradient(#edd1b5, #f9f5eb, #f5dbc1);
   /* background-image: linear-gradient(#edd1b5, #f9f5eb, #745b43); */
   /* background-color: rgba(192, 83, 32, 0.767); */
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-}
-
-body {
-  background-image: white;
-  background-size: cover;
-  display: flex;
+  /* padding-left: 3%;
+  padding-right: 3%; */
+  /* align-content: center; */
   justify-content: center;
-  align-items: center;
+  padding-bottom: 3%;
 }
 
 a {
@@ -594,13 +655,14 @@ p.details-short-description {
 
 /* FOOTER */
 .footer {
-  height: 200px;
+  height: 100%;
   background-color: black;
   color: white;
+  width: 100%;
 }
 
 .footer-description {
-  width: 400px;
+  width: 40%;
   padding: 20px 50px;
   line-height: 2;
 }
