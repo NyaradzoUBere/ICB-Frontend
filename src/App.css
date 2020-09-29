@@ -96,7 +96,7 @@ table {
     background-size: cover;
     margin: 10px 20px;
     background-attachment: fixed;
-    background-position: center bottom;
+    /* background-position: center bottom; */
   }
   
   .details-short-description {
@@ -161,7 +161,7 @@ table {
     margin: 10px 20px;
     background-attachment: fixed;
     margin-bottom: 60px;
-    background-position: center bottom;
+    /* background-position: center bottom; */
   }
   
   .check-bias-text {
