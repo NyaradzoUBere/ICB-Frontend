@@ -20,7 +20,6 @@ export default function Person(props) {
                     <h1 className = "what-happened-label">What Happened</h1>
                     <p className = "details-details">{props.person.details}</p>
                 </div>
-                {/* <p className = "details-age">{props.person.age}</p> */}
                 <div className = "aftermath">
                     <h1 className = "aftermath-label">The Aftermath</h1>
                     <p className = "details-aftermath">{props.person.aftermath}</p>

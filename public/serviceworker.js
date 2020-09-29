@@ -2,7 +2,6 @@ const CACHE_NAME = 'version-1'
 const urlsToCache = [ 'index.html', 'offline.html' ]
 const self = this
 
-// Install SW
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
@@ -13,7 +12,6 @@ self.addEventListener('install', (event) => {
     )
 })
 
-// Listen for request
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request)
