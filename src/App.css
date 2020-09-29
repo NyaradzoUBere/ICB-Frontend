@@ -272,11 +272,6 @@ table {
     position: relative;
   }
   
-  .article-card:hover {
-    top: -10px;
-    cursor: pointer;
-  }
-  
   .article-title {
     font-size: 30px;
     padding: 20px; 
