@@ -67,7 +67,6 @@ body {
   .nav-bar a{
     font-size: 15px;
     text-align: left;
-    /* margin-left: 50px; */
   }
   .nav-bar {
     padding-left: 60px;
@@ -75,13 +74,6 @@ body {
   h1.banner-text {
     font-size: 70px;
   }
-
-  /* See why media query on image not working */
-
-  /* .person-image {
-    display: block;
-    margin: auto;
-  } */
 
   .people {
     width: 100%;
@@ -97,12 +89,10 @@ body {
     width: 100vw;
   }
 
-  /* See why break word not working */
 
   h1.details-name {
     font-size: 70px;
-    /* word-break: break-all; */
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
   }
 
   .details-short-description {
@@ -120,17 +110,14 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
-  /* padding: 20px 20px; */
   text-align: left;
   position: fixed;
   height: 60px;
-  /* overflow: hidden; */
   display: flex;
   justify-content: space-between;
 }
 
 .nav-bar li{
-  /* display: inline; */
   padding: 10px 10px;
   font-size: 20px;
   font-weight: 10px;
@@ -219,11 +206,6 @@ body {
   list-style-type: none;
   text-align: center;
   background-image: linear-gradient(#edd1b5, #f9f5eb, #f5dbc1);
-  /* background-image: linear-gradient(#edd1b5, #f9f5eb, #745b43); */
-  /* background-color: rgba(192, 83, 32, 0.767); */
-  /* padding-left: 3%;
-  padding-right: 3%; */
-  /* align-content: center; */
   justify-content: center;
   padding-bottom: 3%;
 }
@@ -283,26 +265,13 @@ p.details-short-description {
 }
 
 .what-happened-aftermath {
-  /* display: block; */
   color: white;
-  
-  /* align-content: center; */
-  /* align-self: center; */
-  /* padding-left: 40px; */
-  
 }
 
 .what-happened {
-  /* align-self: left; */
-  /* float: left; */
-  /* position: fixed; */
-  /* width: 60%; */
   margin: 20px 20px;
   padding: 25px 25px;
   line-height: 2;
-  /* height: 500px; */
-  /* overflow: scroll; */
-  /* margin-right: 73px; */
   color: black;
   background-size: cover 100%;
   background-repeat: no-repeat;
@@ -316,7 +285,6 @@ p.details-short-description {
   border-radius: 3px;
   padding: 5px 40px;
   font-weight: 300;
-  /* padding: 0px 40px; */
 }
 
 .details-aftermath {
@@ -345,23 +313,12 @@ p.details-short-description {
 }
 
 .aftermath {
-  /* justify-content: right; */
   text-align: left;
-  /* position: absolute; */
-  /* align-content: right; */
-  /* width: 60%; */
   margin: 20px 20px;
-  /* margin-left: 470px; */
   padding: 25px 25px;
   line-height: 2;
-  /* height: 500px; */
-  /* overflow: scroll; */
-  /* margin-left: 73px; */
   color: black;
-  /* position: absolute; */
-  /* border-top: 5px solid rgb(44, 43, 43); */
   font-weight: 300;
-  /* padding: 5px 40px; */
 }
 
 .details-name {
@@ -386,7 +343,6 @@ p.details-short-description {
   margin: 10px 20px;
   background-attachment: fixed;
   margin-bottom: 60px;
-  /* display: flex; */
 }
 
 .check-bias-text {
@@ -427,8 +383,6 @@ p.details-short-description {
   text-align: center;
   display: block;
   overflow: auto;
-  /* height: cover; */
-  /* height: 100%; */
 }
 
 .news-banner {
