@@ -529,19 +529,28 @@ a {
     background-color: black;
     color: white;
     width: 100%;
+    /* padding: 10px 10px; */
+    text-align: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* position: relative; */
   }
   
   .footer-description {
-    /* width: 40%; */
-    padding: 20px 50px;
-    line-height: 2;
-    /* background-image: "'../public/icblogo.png'"; */
+    width: 40%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    /* vertical-align: middle; */
+    /* text-align: center; */
+    display: inline-block;
+    padding-bottom: 20px;
   }
 
-  /* .footer-image {
-    width: 100px;
+
+  .footer-image {
+    width: 130px;
     height: 100px;
-  } */
+  }
 
 }
 
