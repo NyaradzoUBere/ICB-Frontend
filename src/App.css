@@ -253,7 +253,11 @@ table {
   
   .articles {
     background-color: white;
-    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 3%;
   }
   
   .article-card {
@@ -642,6 +646,8 @@ a {
     text-align: center;
     display: block;
     overflow: auto;
+    width: 100%;
+    /* justify-content: center; */
   }
   
   .news-banner {
@@ -666,8 +672,11 @@ a {
   
   .articles {
     background-color: white;
-    text-align: center;
-    margin-left: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 3%;
   }
   
   .article-card {
