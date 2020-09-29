@@ -95,13 +95,10 @@ table {
 
   .quiz-header h2 {
     font-size: 40px;
-    /* width: 100vw; */
   }
 
-  /* See why quiz won't adjust */
 
   .quiz-page {
-    /* display: flex; */
     height: 100vh;
     width: 100%;
     padding-bottom: 0px;
@@ -117,7 +114,6 @@ table {
     margin-left: 0%;
     margin-right: 0%;
     padding-top: 0px;
-    /* height: 1900px; */
   }
 
 
@@ -522,23 +518,13 @@ p.details-short-description {
 }
 
 .container {
-  /* width: 100%; */
   width: 400px;
   background: #fff;
   border-radius: 3px;
   border-top: 5px solid rgba(44, 43, 43, 0.637);
-  /* height: 450px; */
   overflow: hidden;
   height: 460px;
-  /* align-self: center; */
-  
 }
-
-/* @media (min-width: 769px) {
-  .container {
-    margin: 2.5rem auto;
-  }
-} */
 
 .result {
   padding: 1.5rem 2.5rem;
@@ -549,7 +535,6 @@ p.details-short-description {
   margin: 0;
   padding: 0;
   list-style: none;
-  /* border: 1px solid black; */
 }
 
 /* QuestionCount Component */
