@@ -22,31 +22,14 @@ class QuizPage extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0)
-    const shuffledAnswerOptions = quizQuestions.map(question =>
+    const answerOptions = quizQuestions.map(question =>
       (question.answers)
     );
     this.setState({
       question: quizQuestions[0].question,
-      answerOptions: shuffledAnswerOptions[0]
+      answerOptions: answerOptions[0]
     });
   }
-
-  // shuffleArray(array) {
-  //   var currentIndex = array.length,
-  //     temporaryValue,
-  //     randomIndex;
-
-  //   while (0 !== currentIndex) {
-  //     randomIndex = Math.floor(Math.random() * currentIndex);
-  //     currentIndex -= 1;
-
-  //     temporaryValue = array[currentIndex];
-  //     array[currentIndex] = array[randomIndex];
-  //     array[randomIndex] = temporaryValue;
-  //   }
-
-  //   return array;
-  // }
 
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
