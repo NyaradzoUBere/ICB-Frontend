@@ -23,7 +23,7 @@ class QuizPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
     const shuffledAnswerOptions = quizQuestions.map(question =>
-      this.shuffleArray(question.answers)
+      (question.answers)
     );
     this.setState({
       question: quizQuestions[0].question,
@@ -31,22 +31,22 @@ class QuizPage extends Component {
     });
   }
 
-  shuffleArray(array) {
-    var currentIndex = array.length,
-      temporaryValue,
-      randomIndex;
+  // shuffleArray(array) {
+  //   var currentIndex = array.length,
+  //     temporaryValue,
+  //     randomIndex;
 
-    while (0 !== currentIndex) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
+  //   while (0 !== currentIndex) {
+  //     randomIndex = Math.floor(Math.random() * currentIndex);
+  //     currentIndex -= 1;
 
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
+  //     temporaryValue = array[currentIndex];
+  //     array[currentIndex] = array[randomIndex];
+  //     array[randomIndex] = temporaryValue;
+  //   }
 
-    return array;
-  }
+  //   return array;
+  // }
 
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
