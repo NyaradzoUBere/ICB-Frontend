@@ -10,13 +10,13 @@
     {
       "src": "icblogo.png",
       "type": "image/png",
-      "sizes": "1024x1024",
-      "purpose": "maskable"
+      "sizes": "1024x1024"
     },
     {
       "src": "maskableicb.png",
       "type": "image/png",
-      "sizes": "1024x1024"
+      "sizes": "1024x1024",
+      "purpose": "maskable"
     }
 
   ],
