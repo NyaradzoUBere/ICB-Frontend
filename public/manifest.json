@@ -10,8 +10,15 @@
     {
       "src": "icblogo.png",
       "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
+      "src": "maskableicb.png",
+      "type": "image/png",
       "sizes": "1024x1024"
     }
+
   ],
   "start_url": ".",
   "display": "standalone",
