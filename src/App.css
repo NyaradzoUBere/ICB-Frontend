@@ -78,6 +78,7 @@ table {
   .details {
     width: 100vw;
   }
+  
   h1.details-name {
     font-size: 50px;
   }
@@ -104,6 +105,7 @@ table {
   .details-banner {
     background-image: url("https://images.unsplash.com/photo-1591155426209-23831d47700d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80");
   }
+
   .details-banner, .check-bias-banner {
     height: 900px;
     background-size: cover;
@@ -162,7 +164,6 @@ table {
     letter-spacing: 4px;
     float: right;
     text-align: right;
-  
   }
   
   .bias-link {
@@ -185,7 +186,6 @@ table {
   .quiz-header {
     padding-top: 100px;
   }
-
 
   .quiz-page {
     height: 100vh;
@@ -303,7 +303,6 @@ table {
     font-size: 10px;
   }
 
-
   .footer-image {
     width: 70px;
     height: 70px;
@@ -348,6 +347,7 @@ body {
   float: left;
   text-align: left;
 }
+
 .nav-bar li:hover{
   display: inline;
   padding: 10px 10px;
@@ -416,7 +416,6 @@ body {
   display: block;
 }
 
-
 .people {
   display: flex;
   flex-flow: row wrap;
@@ -446,8 +445,6 @@ a {
   text-decoration: none;
   font-size: 20px;
 }
-
-
 
 .details {
   display: block;
@@ -483,6 +480,7 @@ a {
     margin: 10px 20px;
     background-attachment: fixed;
   }
+
   p.details-short-description {
     color: white;
     font-weight: bolder;
@@ -608,7 +606,6 @@ a {
     padding-bottom: 20px;
   }
 
-
   .footer-image {
     width: 130px;
     height: 100px;
@@ -691,11 +688,9 @@ a {
   }
 }
 
-
 .what-happened-aftermath {
   color: white;
 }
-
 
 .details-name {
   font-family: sans-serif;
@@ -705,11 +700,6 @@ a {
   text-align: center;
   margin-top: 220px;
 }
-
-
-/* NEWS PAGE STYLING */
-
-
 
 /* QUIZ STYLING */
 
@@ -729,7 +719,6 @@ a {
   width: 100vw;
 }
 
-
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -746,8 +735,6 @@ a {
   justify-content: center;
   
 }
-
-
 
 .result {
   padding: 1.5rem 2.5rem;
@@ -773,7 +760,6 @@ a {
 }
 
 /* AnswerOption Component */
-
 
 .radioCustomButton {
   position: absolute;
@@ -847,6 +833,3 @@ a {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
-
-
-/* FOOTER */
