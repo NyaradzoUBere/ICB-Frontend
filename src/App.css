@@ -510,48 +510,75 @@ a {
     background-repeat: no-repeat;
     background-position: center bottom;
     margin-bottom: 50px;
-    border-top: 5px solid rgb(44, 43, 43);
+    /* border-bottom: 5px solid rgb(44, 43, 43); */
+    display: flex;
+    flex-flow: row wrap;
+    /* list-style-type: none; */
+    justify-content: center;
+    /* text-align: center; */
   }
   
   .details-details {
-    text-align: left;
+    text-align: justify;
     border-radius: 3px;
     padding: 5px 40px;
     font-weight: 300;
+    width: 70%;
+    font-size: 20px;
   }
   
   .details-aftermath {
     padding: 5px 40px;
+    display: flex;
+    flex-flow: row wrap;
+    /* list-style-type: none; */
+    justify-content: center;
+    text-align: justify;
+    width: 70%;
   }
   
-  .what-happened-label {
-    text-align: left;
+  .what-happened-label, .aftermath-label{
+    text-align: center;
     font-weight: lighter;
     font-size: 35px;
     letter-spacing: 5px;
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
     color: #b48f6a;
     padding: 5px 40px;
+    margin-bottom: 20px;
+    /* background-color: rgb(0, 0, 0); */
+    /* text-shadow: 2px 2px 5px white; */
+    width: 70%;
+    border-top: 5px solid rgb(44, 43, 43);
   }
   
-  .aftermath-label {
-    text-align: left;
+  /* .aftermath-label {
+    text-align: center;
     font-weight: lighter;
     font-size: 35px;
     letter-spacing: 5px;
-    width: cover;
-    padding: 5px 5px;
     color: #b48f6a;
     padding: 5px 40px;
-  }
+    margin-bottom: 20px;
+    width: 70%;
+  } */
   
   .aftermath {
-    text-align: left;
     margin: 20px 20px;
     padding: 25px 25px;
     line-height: 2;
     color: black;
-    font-weight: 300;
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 50px;
+    /* border-bottom: 5px solid rgb(44, 43, 43); */
+    display: flex;
+    flex-flow: row wrap;
+    /* list-style-type: none; */
+    justify-content: center;
+    /* text-align: center; */
+    font-weight: lighter;
   }
   .check-bias-banner {
     background-image: url("https://images.unsplash.com/photo-1597956588420-4c57dd3f3ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
