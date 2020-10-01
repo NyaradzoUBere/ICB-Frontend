@@ -9,8 +9,9 @@ export default function Person(props) {
         <div className = "details">
             <div className = "name-dates">
                 <h1 className = "details-name">{props.person.name}</h1>
-                <h3 className = "details-birthdate">{props.person.birthdate} ~</h3>
-                <h3 className = "details-deathdate">{props.person.deathdate}</h3>
+                {props.person.birthdate ? (
+                    <h3 className = "details-birthdate">{props.person.birthdate} — {props.person.deathdate}</h3>
+                ): (<h3 className = "details-birthdate">Died {props.person.deathdate}</h3>)}
             </div>
             <div className = "details-banner">
                 <p className = "details-short-description">The events surrounding {props.person.name} occured in {props.person.location}. {props.person.name} was {props.person.age} years old.</p>
