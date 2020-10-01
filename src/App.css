@@ -669,7 +669,7 @@ a {
     margin: 20px 20px;
     float: left;
     height: 600px;
-    overflow: scroll;
+    overflow: hidden;
     top: 0px;
     transition: top ease 0.5s;
     position: relative;
