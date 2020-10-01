@@ -346,7 +346,7 @@ body {
 }
 
 .nav-bar li{
-  padding: 10px 10px;
+  padding: 10px 15px;
   font-size: 20px;
   font-weight: 10px;
   display: block;
@@ -356,7 +356,7 @@ body {
 
 .nav-bar li:hover{
   display: inline;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   font-size: 20px;
   cursor: pointer;
   top: -10px;
