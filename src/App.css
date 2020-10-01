@@ -349,6 +349,8 @@ body {
   height: 60px;
   display: flex;
   justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
 }
 
 .nav-bar li{
@@ -370,7 +372,7 @@ body {
 }
 
 .nav-bar a:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: rgb(168, 168, 163);
 }
 
