@@ -1,24 +1,25 @@
-# Rouge-Frontend
+# I Can't Breathe-Frontend
 
 
 ## Table of Contents
-* [About](#about-rouge)
-* [Video](#rouge-walkthrough-video)
+* [About](#about-icb)
+* [Video](#icb-walkthrough-video)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Code Examples](#code-examples)
-* [Features](#rouge-features)
+* [Features](#icb-features)
 * [Status](#status)
-* [Why Rouge](#why-rouge)
+* [Why ICB](#why-icb)
 * [Contact](#contact)
 * [License](#license)
 
-## About Rouge
-Rouge is a fun, lighthearted webapp that allows users to pic their makeup looks based on if they want a day or night look. Often, daytime makeup looks are based on light colors and shades while nightime makeup looks permit deeper colors and shades. After selecting if they want a day or night look, the user can view more information about the product, add the product to their "look" and ultimately purchase the product by going to the product link provided. 
+## About ICB
+I Can't Breathe is built to serve as a first step resource towards anti-racism and reversing negative racial bias. It was created in response to the protests occuring around the country as a result of the death of George Floyd. Previously, in order to gain information and educate yourself about deaths resulting from police brutality and racist-driven attacks, much time needed to be spent searching the web. Now, that information is provided immediately, allowing for ease of use and making the self-education process overall simpler.
 
 
-## Rouge Walkthrough Video
-[Rouge Walkthrough](https://youtu.be/k4dwUqnWSz4)
+## ICB Walkthrough Video
+<!-- [I Can't Breathe Walkthrough](https://youtu.be/k4dwUqnWSz4) -->
+Coming Soon
 
 ## Technologies
 React.js - Version 16.13.1
@@ -27,46 +28,50 @@ JavaScript ES6
 
 HTML5 / CSS3
 
+ICB is also a Progressive Web App
+
 ## Setup
 
-1. To run this project, please go to the [Rouge Backend repo](https://github.com/NyaradzoUBere/Rouge-Backend) and follow setup instructions
+1. To run this project, please go to the [ICB Backend repo](https://github.com/NyaradzoUBere/ICB-Backend) and follow setup instructions
 2. Run ~ npm start in your front-end directory
 
 ## Code Examples
 
 ```
-  lightOrDark = () => {
-    if (this.state.lightProducts) {
-      return this.showLightProducts()
-    } else if (this.state.darkProducts) {
-      return this.showDarkProducts()
-    } else {
-      return this.showProducts()
+    componentDidMount() {
+        window.scrollTo(0, 0)
+        const answerOptions = quizQuestions.map(question =>
+        (question.answers)
+        );
+        this.setState({
+        question: quizQuestions[0].question,
+        answerOptions: answerOptions[0]
     }
-  }
 ```
 ```
-  showProducts = () => {
-    return this.state.products.map(product => {
-      return <Card product = {product} clickLooks = {this.addToLooks}/>
-    })
-  }
+    <div className = "what-happened-aftermath">
+        <div className = "what-happened">
+            <h1 className = "what-happened-label">What Happened</h1>
+            <p className = "details-details">{props.person.details}</p>
+        </div>
+        <div className = "aftermath">
+            <h1 className = "aftermath-label">The Aftermath</h1>
+            <p className = "details-aftermath">{props.person.aftermath}</p>
+        </div>
+    </div>
 ```
-## Rouge Features
-* Select Daytime or Nightime makeup Products
-* Receive details of the products selected such as name, brand, description, etc.
-* Add your favorite products to your makeup look
-* Purchase the product by following the product links provided
+## ICB Features
+* Read through the case of your choice, learning what happened, when, where, and the aftermath
+* Complete an unconscious bias self assessment to take steps towards self awareness
+* Read articles related to the black community, blm, trials, etc.
+* Coming Soon: Access to anti-racism resources such as movies, shows, books, and podcasts
 
 
 To-Do List:
-* Break down products by type to allow for an enhanced user experience
+* Complete anti-racism resource feature
 
 ## Status
 Completed.
-
-## Why Rouge?
-I chose to create this app as a fun, lighthearted way to practice my React knowledge. I live off the idea that it's a lot more fun to learn something when it is directly tied to your interests. I have appreciated makeup for many years now and I wanted to make an app that I know I would use as a consumer myself.
 
 ## Contact
 Created by [Nyaradzo Bere](http://www.linkedin.com/in/nyaradzo-bere)
