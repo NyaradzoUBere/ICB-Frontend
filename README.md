@@ -9,7 +9,6 @@
 * [Code Examples](#code-examples)
 * [Features](#icb-features)
 * [Status](#status)
-* [Why ICB](#why-icb)
 * [Contact](#contact)
 * [License](#license)
 
