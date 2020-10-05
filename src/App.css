@@ -750,11 +750,13 @@ a {
 
   .movie-card {
     background-image: url("https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+  }
+
+  .movie-card, .books-card, .shows-card, .podcasts-card {
     width: 650px;
     height: 450px;
     background-size: cover;
     margin: 10px 10px;
-    background-position: center bottom;
     -webkit-filter: grayscale(100%);
   }
 
@@ -770,33 +772,15 @@ a {
   .podcasts-card:hover {
     opacity: .8;
   }
-  
+
   .books-card {
     background-image: url("https://images.unsplash.com/photo-1547555999-14e818e09e33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    width: 650px;
-    height: 450px;
-    background-size: cover;
-    margin: 10px 10px;
-    background-position: center bottom;
-    -webkit-filter: grayscale(100%);
   }
   .shows-card {
     background-image: url("https://images.unsplash.com/photo-1556889487-b6f8d3fc728b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1153&q=80");
-    width: 650px;
-    height: 450px;
-    background-size: cover;
-    margin: 10px 10px;
-    background-position: center bottom;
-    -webkit-filter: grayscale(100%);
   }
   .podcasts-card {
     background-image: url("https://images.unsplash.com/photo-1513595086754-ae9ec42d7e90?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-    width: 650px;
-    height: 450px;
-    background-size: cover;
-    margin: 10px 10px;
-    background-position: center bottom;
-    -webkit-filter: grayscale(100%);
   }
 
 
