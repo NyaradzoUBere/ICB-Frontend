@@ -9,11 +9,14 @@ export default function NavBar() {
                 <li>
                     <Link to ="/" className = "active">Home</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to ="/quiz/self">Check My Bias</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to ="/news/now">In The News</Link>
+                </li>
+                <li>
+                    <Link to ="/resources/explore">Resources</Link>
                 </li>
             </ul>
         </div>
