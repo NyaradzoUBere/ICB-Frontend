@@ -13,7 +13,7 @@
 * [License](#license)
 
 ## About ICB
-I Can't Breathe is built to serve as a first step resource towards anti-racism and reversing negative racial bias. It was created in response to the protests occuring around the country as a result of the death of George Floyd. Previously, in order to gain information and educate yourself about deaths resulting from police brutality and racist-driven attacks, much time needed to be spent searching the web. Now, that information is provided immediately, allowing for ease of use and making the self-education process overall simpler.
+I Can't Breathe is built to serve as a first step resource towards anti-racism and reversing negative racial bias. It was created in response to the protests occuring around the country as a result of the death of George Floyd. Previously, in order to gain information and educate yourself about deaths resulting from police brutality and racist-driven attacks, one had to devote a lot of time to research and searching through the web. Now, that information is provided immediately, allowing for ease of use and making the self-education process overall simpler.
 
 
 ## ICB Walkthrough Video
