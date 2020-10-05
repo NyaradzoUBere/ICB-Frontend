@@ -6,6 +6,7 @@ import Footer from '.././Footer'
 import ShowPage from './Show';
 import News from './News';
 import QuizPage from './QuizPage'
+import Resources from './Resources'
 import {BrowserRouter as Router, Route, Switch, BrowserRouter} from 'react-router-dom'
 
 
@@ -43,6 +44,7 @@ return (
         <Route exact path="/:id" render = {props => <ShowPage {...props} people = {this.state.people}/>}/>
         <Route exact path="/news/now" component = {News} />
         <Route exact path="/quiz/self" component = {QuizPage} />
+        <Route exact path="/resources/explore" component = {Resources} />
     </Switch>
     <Footer />
     </>
