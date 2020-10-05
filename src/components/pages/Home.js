@@ -8,6 +8,9 @@ import News from './News';
 import QuizPage from './QuizPage'
 import Resources from './Resources'
 import Movies from './Movies'
+import TVShows from './TVShows'
+import Books from './Books'
+import Podcasts from './Podcasts'
 import {BrowserRouter as Router, Route, Switch, BrowserRouter} from 'react-router-dom'
 
 
@@ -47,6 +50,9 @@ return (
         <Route exact path="/quiz/self" component = {QuizPage} />
         <Route exact path="/resources/explore" component = {Resources} />
         <Route exact path="/resources/movies" component = {Movies} />
+        <Route exact path="/resources/tvshows" component = {TVShows} />
+        <Route exact path="/resources/books" component = {Books} />
+        <Route exact path="/resources/podcasts" component = {Podcasts} />
     </Switch>
     <Footer />
     </>

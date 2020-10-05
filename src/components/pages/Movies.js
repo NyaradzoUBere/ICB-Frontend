@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Movies() {
     return (
-    <div className = "movies-resources">
+    <div className = "resources">
         <h2 className = "resources-title">Movies</h2>
         <ul className = "resources-list">
             <li className = "resource">13th</li>
