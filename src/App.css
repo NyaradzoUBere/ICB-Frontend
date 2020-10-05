@@ -700,6 +700,38 @@ a {
     text-align: center;
     margin-top: 220px;
   }
+
+  .resources-page {
+    background-color: white;
+    text-align: center;
+    display: block;
+    overflow: auto;
+    width: 100%;
+  }
+
+  .resources-header {
+    padding-top: 150px;
+    color: #cfa67d;
+    font-family: sans-serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .resources-title {
+    font-size: 40px;
+  }
+
+  .resources-list {
+    margin: 10px 10px;
+  }
+
+  .resource {
+    margin: 5px 5px;
+  }
+
 }
 
 .what-happened-aftermath {
