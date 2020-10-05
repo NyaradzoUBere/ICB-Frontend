@@ -790,6 +790,10 @@ a {
     font-size: 18px;
   }
 
+  .resource:hover{
+    color: grey;
+  }
+
   .resources-list {
     text-align: left;
     padding-bottom: 15px;
