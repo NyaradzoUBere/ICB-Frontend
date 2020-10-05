@@ -28,7 +28,7 @@ export default function Person(props) {
             </div>
             <div className = "check-bias-banner">
                 <p className = "check-bias-text">We all have bias.</p>
-                <Link className = "bias-link" to = '/quiz/self'>Check Yours</Link>
+                <Link className = "bias-link" to = '/resources/explore'>Unlearn Yours</Link>
             </div>
         </div>
         </>
