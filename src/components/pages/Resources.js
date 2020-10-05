@@ -66,7 +66,13 @@ export default function Resources() {
                     <div className = "podcasts-resources">
                         <h2 className = "podcasts-title">Podcasts</h2>
                         <ul className = "podcast-list">
-                            <li className = "podcast"></li>
+                            <li className = "podcast">Code Switch (NPR)</li>
+                            <li className = "podcast">1619 (New York Times)</li>
+                            <li className = "podcast">About Race</li>
+                            <li className = "podcast">Intersectionality Matters! hosted by Kimberlé Crenshaw</li>
+                            <li className = "podcast">Momentum: A Race Forward Podcast</li>
+                            <li className = "podcast">Nice White Parents (Serial and The New York Times)</li>
+                            <li className = "podcast">Seeing White</li>
                         </ul>
                     </div>
                 </div>
