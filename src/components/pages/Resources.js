@@ -23,8 +23,6 @@ export default function Resources() {
                             <li className = "movie">Selma</li>
                             <li className = "movie">The Black Panthers: Vanguard of the Revolution</li>
                             <li className = "movie">The Hate U Give</li>
-                            <li className = "movie"></li>
-                            <li className = "movie"></li>
                         </ul>
                     </div>
                     <div className = "shows-resources">
@@ -32,9 +30,6 @@ export default function Resources() {
                         <ul className = "shows-list">
                             <li className = "show">Dear White People</li>
                             <li className = "show">When They See Us</li>
-                            <li className = "show"></li>
-                            <li className = "show"></li>
-                            <li className = "show"></li>
                         </ul>
                     </div>
                     <div className = "books-resources">
@@ -58,9 +53,6 @@ export default function Resources() {
                             <li className = "book">The Next American Revolution: Sustainable Activism for the Twenty-First Century</li>
                             <li className = "book">When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America</li>
                             <li className = "book">White Fragility: Why It's So Hard for White People to Talk About Racism</li>
-                            <li className = "book"></li>
-                            <li className = "book"></li>
-                            <li className = "book"></li>
                         </ul>
                     </div>
                     <div className = "podcasts-resources">
