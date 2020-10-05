@@ -7,6 +7,7 @@ import ShowPage from './Show';
 import News from './News';
 import QuizPage from './QuizPage'
 import Resources from './Resources'
+import Movies from './Movies'
 import {BrowserRouter as Router, Route, Switch, BrowserRouter} from 'react-router-dom'
 
 
@@ -45,6 +46,7 @@ return (
         <Route exact path="/news/now" component = {News} />
         <Route exact path="/quiz/self" component = {QuizPage} />
         <Route exact path="/resources/explore" component = {Resources} />
+        <Route exact path="/resources/movies" component = {Movies} />
     </Switch>
     <Footer />
     </>
