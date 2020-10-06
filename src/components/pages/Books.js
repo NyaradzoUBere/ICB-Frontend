@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Books() {
     return (
+        <>
+        {window.scrollTo(0, 0)}
         <div>
             <div className = "resources">
                     <h2 className = "resources-title">Books</h2>
@@ -63,5 +65,6 @@ export default function Books() {
                     </ul>
                 </div>
         </div>
+        </>
     )
 }

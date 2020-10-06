@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Podcasts() {
     return (
+        <>
+        {window.scrollTo(0, 0)}
         <div>
             <div className = "resources">
                     <h2 className = "resources-title">Podcasts</h2>
@@ -30,5 +32,6 @@ export default function Podcasts() {
                     </ul>
                 </div>
         </div>
+        </>
     )
 }

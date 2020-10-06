@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Movies() {
     return (
+    <>
+    {window.scrollTo(0, 0)}
     <div className = "resources">
         <h2 className = "resources-title">Movies</h2>
         <ul className = "resources-list">
@@ -46,5 +48,6 @@ export default function Movies() {
             </a>
         </ul>
     </div>
+    </>
     )
 }

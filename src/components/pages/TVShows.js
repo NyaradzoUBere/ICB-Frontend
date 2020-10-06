@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function TVShows() {
     return (
+        <>
+        {window.scrollTo(0, 0)}
         <div className = "resources">
             <h2 className = "resources-title">TV Shows</h2>
             <ul className = "resources-list">
@@ -13,5 +15,6 @@ export default function TVShows() {
                 </a>
             </ul>
         </div>
+        </>
     )
 }
