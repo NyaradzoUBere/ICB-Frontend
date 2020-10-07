@@ -27,15 +27,16 @@ export default function Person(props) {
                 </div>
             </div>
             <div className = "call-to-action">
-                <div className = "donate">
                 {props.person.donation ? (
-                    <a target = "_blank" rel = "noopener noreferrer" href = {props.person.donation}>Donate Here</a>) : (null)}
+                <div className = "donate">
+                    <a target = "_blank" rel = "noopener noreferrer" href = {props.person.donation}>Donate</a>
                 </div>
+                ) : (null)}
+                {props.person.petition ? (
                 <div className = "petition">
-                    {props.person.petition ? (
                         <a target = "_blank" rel = "noopener noreferrer" href ={props.person.petition}>Sign a Petition</a>
-                    ): null}
                 </div>
+                ): null}
             </div>
             <div className = "check-bias-banner">
                 <p className = "check-bias-text">We all have bias.</p>
