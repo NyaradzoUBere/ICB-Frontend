@@ -26,6 +26,17 @@ export default function Person(props) {
                     <p className = "details-aftermath">{props.person.aftermath}</p>
                 </div>
             </div>
+            <div className = "call-to-action">
+                <div className = "donate">
+                {props.person.donation ? (
+                    <a target = "_blank" rel = "noopener noreferrer" href = {props.person.donation}>Donate Here</a>) : (null)}
+                </div>
+                <div className = "petition">
+                    {props.person.petition ? (
+                        <a target = "_blank" rel = "noopener noreferrer" href ={props.person.petition}>Sign a Petition</a>
+                    ): null}
+                </div>
+            </div>
             <div className = "check-bias-banner">
                 <p className = "check-bias-text">We all have bias.</p>
                 <Link className = "bias-link" to = '/resources/explore'>Unlearn Yours</Link>
